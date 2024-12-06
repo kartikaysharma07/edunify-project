@@ -1,5 +1,5 @@
 
-import School from '../../../models/School';
+import School from '../../models/School';
 
 export default async (req, res) => {
     try {

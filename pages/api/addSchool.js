@@ -2,7 +2,7 @@
 import multer from 'multer';
 import nc from 'next-connect';
 import path from 'path';
-import School from '../../../models/School';
+import School from '../../models/School';
 
 const upload = multer({
     storage: multer.diskStorage({
