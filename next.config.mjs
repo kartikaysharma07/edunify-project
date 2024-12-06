@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  telemetry: false, // Disable telemetry message
 };
 
-export default nextConfig;
+module.exports = nextConfig;
